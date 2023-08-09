@@ -39,8 +39,8 @@ body {
   border-radius: 10px;
   border: 0;
 }
-#btn-grp button:hover, 
-#btn404:hover{
+#btn-grp button:hover,
+#btn404:hover {
   height: 55px;
   background-color: #fae4da;
   color: white;
@@ -58,54 +58,54 @@ body {
   border-radius: 10px;
   color: white;
 }
-#lost{
+#lost {
   width: 300px;
   border-radius: 10px;
   margin: 50px 0;
 }
-#alert{
+#alert {
   font-size: 80pt;
   padding-top: 50px;
 }
-#btn404{
+#btn404 {
   width: 40vw;
   height: 50px;
   background-color: #fae4ce;
   color: grey;
   border-radius: 10px;
   border: 0;
-  margin-bottom:50px;
+  margin-bottom: 50px;
 }
-#Contact{
+#Contact {
   color: #fff;
   text-decoration: none;
 }
- 
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
-  th, td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-  }
-  th {
-    background-color: #f2f2f2;
-    font-weight: bold;
-  }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #fae4ce;
+  font-weight: bold;
+  color: grey;
+}
 
 @media (max-width: 576px) {
   #about {
     width: 95vw;
     display: none;
   }
-  #btn404{
+  #btn404 {
     width: 70vw;
   }
-  #lost{
+  #lost {
     width: 200px;
   }
   table {
@@ -123,13 +123,14 @@ body {
     display: block;
     text-align: right;
     position: relative;
-    padding-left: 50%;
+    padding-left: 5%;
+    font-size: small;
   }
   table td::before {
     content: attr(data-label);
     position: absolute;
     left: 0;
-    width: 50%;
+    width: 70%;
     padding-left: 10px;
     font-weight: bold;
   }
@@ -137,5 +138,8 @@ body {
 @media (min-width: 576px) and (max-width: 992px) {
   #about {
     width: 90vw;
+  }
+  td {
+    font-size: small;
   }
 }
