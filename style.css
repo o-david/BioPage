@@ -84,6 +84,7 @@ body {
 @media (max-width: 576px) {
   #about {
     width: 95vw;
+    display: none;
   }
   #btn404{
     width: 70vw;
